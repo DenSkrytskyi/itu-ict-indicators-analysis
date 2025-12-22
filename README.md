@@ -2,7 +2,7 @@
 
 Exploratory analysis of ICT access, usage and affordability using ITU data
 
-1. Project Overview
+## 1. Project Overview
 
 This project presents an exploratory and comparative analysis of selected Information and Communication Technology (ICT) indicators published by the International Telecommunication Union (ITU).
 
