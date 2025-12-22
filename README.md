@@ -16,13 +16,13 @@ exploratory and comparative analysis across countries and time;
 
 policy-relevant interpretation of ICT indicators in line with ITU analytical work.
 
-2. Data Sources
+## 2. Data Sources
 
 All datasets used in this project were downloaded from the ITU ICT DataHub and correspond to officially published ITU indicators.
 
 The analysis uses country-level time series data covering multiple years, depending on indicator availability.
 
-3. Indicators Used
+## 3. Indicators Used
 
 The following ICT indicators are included in the analysis:
 
@@ -48,7 +48,7 @@ Household expenditure on ICTs (% of total household expenditure)
 
 These indicators reflect ITU’s core analytical areas: connectivity, usage, affordability and digital inclusion.
 
-4. Methodology and Analytical Steps
+## 4. Methodology and Analytical Steps
 
 The analysis follows standard ITU-style analytical steps:
 
@@ -84,7 +84,7 @@ Scatter plots to analyse relationships between indicators.
 
 Bar charts for country rankings.
 
-5. Key Findings (Policy-Oriented Summary)
+## 5. Key Findings (Policy-Oriented Summary)
 
 Strong global upward trend
 Most countries show a clear increase in Internet access and usage over time, reflecting sustained global progress in ICT adoption.
@@ -100,7 +100,7 @@ In many countries, the percentage of individuals using the Internet exceeds the 
 
 These findings are consistent with ITU’s global assessments of ICT development and affordability.
 
-6. Relevance to ITU ICT Statistics Work
+## 6. Relevance to ITU ICT Statistics Work
 
 This project directly aligns with the work of the ICT Data and Analytics Division (IDA) by demonstrating:
 
@@ -112,7 +112,7 @@ production of clear, policy-relevant visual outputs;
 
 concise interpretation of statistical results for decision-making contexts.
 
-7. Tools and Environment
+## 7. Tools and Environment
 
 Python
 
@@ -126,7 +126,7 @@ matplotlib
 
 seaborn
 
-8. Reproducibility
+## 8. Reproducibility
 
 The analysis is fully reproducible:
 
