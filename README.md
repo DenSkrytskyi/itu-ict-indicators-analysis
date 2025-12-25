@@ -54,35 +54,35 @@ The analysis follows standard ITU-style analytical steps:
 
 Data loading and validation
 
--Importing CSV files using Python (pandas).
+- Importing CSV files using Python (pandas).
 
--Checking structure, missing values and data types.
+- Checking structure, missing values and data types.
 
--Ensuring consistency of country names and time variables.
+- Ensuring consistency of country names and time variables.
 
 Exploratory analysis
 
--Descriptive statistics for each indicator.
+- Descriptive statistics for each indicator.
 
--Time-series visualisation to identify long-term trends.
+- Time-series visualisation to identify long-term trends.
 
--Cross-country comparisons to highlight variation across development contexts.
+- Cross-country comparisons to highlight variation across development contexts.
 
 Comparative analysis
 
--Comparison between households’ Internet access and individuals’ Internet use.
+- Comparison between households’ Internet access and individuals’ Internet use.
 
--Analysis of the relationship between Internet affordability and Internet adoption.
+- Analysis of the relationship between Internet affordability and Internet adoption.
 
--Identification of top and bottom countries based on latest available data.
+- Identification of top and bottom countries based on latest available data.
 
 Visualisation
 
--Line charts for trends over time.
+- Line charts for trends over time.
 
--Scatter plots to analyse relationships between indicators.
+- Scatter plots to analyse relationships between indicators.
 
--Bar charts for country rankings.
+- Bar charts for country rankings.
 
 ## 5. Key Findings (Policy-Oriented Summary)
 
@@ -104,13 +104,13 @@ These findings are consistent with ITU’s global assessments of ICT development
 
 This project directly aligns with the work of the ICT Data and Analytics Division (IDA) by demonstrating:
 
--handling and validation of official ICT statistics;
+- handling and validation of official ICT statistics;
 
--analytical use of ICT access, usage and price indicators;
+- analytical use of ICT access, usage and price indicators;
 
--production of clear, policy-relevant visual outputs;
+- production of clear, policy-relevant visual outputs;
 
--concise interpretation of statistical results for decision-making contexts.
+- concise interpretation of statistical results for decision-making contexts.
 
 ## 7. Tools and Environment
 
