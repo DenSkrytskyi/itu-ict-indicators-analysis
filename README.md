@@ -10,11 +10,11 @@ The analysis focuses on ICT access, usage and affordability, three core dimensio
 
 The objective of this project is to demonstrate:
 
-- data handling and validation of official ICT statistics;
+data handling and validation of official ICT statistics;
 
-- exploratory and comparative analysis across countries and time;
+exploratory and comparative analysis across countries and time;
 
-- policy-relevant interpretation of ICT indicators in line with ITU analytical work.
+policy-relevant interpretation of ICT indicators in line with ITU analytical work.
 
 ## 2. Data Sources
 
@@ -26,27 +26,27 @@ The analysis uses country-level time series data covering multiple years, depend
 
 The following ICT indicators are included in the analysis:
 
-- Households with Internet access at home (%)
+Households with Internet access at home (%)
 
-- Individuals using the Internet (%)
+Individuals using the Internet (%)
 
-- Individuals who own a mobile cellular telephone (%)
+Individuals who own a mobile cellular telephone (%)
 
-- Individuals who own a smartphone (%)
+Individuals who own a smartphone (%)
 
-- Active mobile-broadband subscriptions (count)
+Active mobile-broadband subscriptions (count)
 
-- Fixed-broadband subscriptions (per 100 people)
+Fixed-broadband subscriptions (per 100 people)
 
-- Population coverage by mobile network (at least 2G/3G/4G/5G)
+Population coverage by mobile network (at least 2G/3G/4G/5G)
 
-- Data-only mobile broadband basket (5 GB) – % of GNI per capita
+Data-only mobile broadband basket (5 GB) – % of GNI per capita
 
-- Fixed-broadband Internet basket (5 GB) – % of GNI per capita
+Fixed-broadband Internet basket (5 GB) – % of GNI per capita
 
-- Household expenditure on ICTs (% of total household expenditure)
+Household expenditure on ICTs (% of total household expenditure)
 
-- These indicators reflect ITU’s core analytical areas: connectivity, usage, affordability and digital inclusion.
+These indicators reflect ITU’s core analytical areas: connectivity, usage, affordability and digital inclusion.
 
 ## 4. Methodology and Analytical Steps
 
@@ -62,27 +62,27 @@ Data loading and validation
 
 Exploratory analysis
 
-- Descriptive statistics for each indicator.
+-Descriptive statistics for each indicator.
 
-- Time-series visualisation to identify long-term trends.
+-Time-series visualisation to identify long-term trends.
 
-- Cross-country comparisons to highlight variation across development contexts.
+-Cross-country comparisons to highlight variation across development contexts.
 
 Comparative analysis
 
-- Comparison between households’ Internet access and individuals’ Internet use.
+-Comparison between households’ Internet access and individuals’ Internet use.
 
-- Analysis of the relationship between Internet affordability and Internet adoption.
+-Analysis of the relationship between Internet affordability and Internet adoption.
 
-- Identification of top and bottom countries based on latest available data.
+-Identification of top and bottom countries based on latest available data.
 
 Visualisation
 
-- Line charts for trends over time.
+-Line charts for trends over time.
 
-- Scatter plots to analyse relationships between indicators.
+-Scatter plots to analyse relationships between indicators.
 
-- Bar charts for country rankings.
+-Bar charts for country rankings.
 
 ## 5. Key Findings (Policy-Oriented Summary)
 
