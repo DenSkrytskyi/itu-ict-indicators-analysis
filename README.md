@@ -10,11 +10,11 @@ The analysis focuses on ICT access, usage and affordability, three core dimensio
 
 The objective of this project is to demonstrate:
 
-data handling and validation of official ICT statistics;
+-  data handling and validation of official ICT statistics;
 
-exploratory and comparative analysis across countries and time;
+-  exploratory and comparative analysis across countries and time;
 
-policy-relevant interpretation of ICT indicators in line with ITU analytical work.
+-  policy-relevant interpretation of ICT indicators in line with ITU analytical work.
 
 ## 2. Data Sources
 
