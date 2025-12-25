@@ -26,25 +26,25 @@ The analysis uses country-level time series data covering multiple years, depend
 
 The following ICT indicators are included in the analysis:
 
-Households with Internet access at home (%)
+-Households with Internet access at home (%)
 
-Individuals using the Internet (%)
+-Individuals using the Internet (%)
 
-Individuals who own a mobile cellular telephone (%)
+-Individuals who own a mobile cellular telephone (%)
 
-Individuals who own a smartphone (%)
+-Individuals who own a smartphone (%)
 
-Active mobile-broadband subscriptions (count)
+-Active mobile-broadband subscriptions (count)
 
-Fixed-broadband subscriptions (per 100 people)
+-Fixed-broadband subscriptions (per 100 people)
 
-Population coverage by mobile network (at least 2G/3G/4G/5G)
+-Population coverage by mobile network (at least 2G/3G/4G/5G)
 
-Data-only mobile broadband basket (5 GB) – % of GNI per capita
+-Data-only mobile broadband basket (5 GB) – % of GNI per capita
 
-Fixed-broadband Internet basket (5 GB) – % of GNI per capita
+-Fixed-broadband Internet basket (5 GB) – % of GNI per capita
 
-Household expenditure on ICTs (% of total household expenditure)
+-Household expenditure on ICTs (% of total household expenditure)
 
 These indicators reflect ITU’s core analytical areas: connectivity, usage, affordability and digital inclusion.
 
@@ -104,13 +104,13 @@ These findings are consistent with ITU’s global assessments of ICT development
 
 This project directly aligns with the work of the ICT Data and Analytics Division (IDA) by demonstrating:
 
-- handling and validation of official ICT statistics;
+-handling and validation of official ICT statistics;
 
-- analytical use of ICT access, usage and price indicators;
+-analytical use of ICT access, usage and price indicators;
 
 -production of clear, policy-relevant visual outputs;
 
-- concise interpretation of statistical results for decision-making contexts.
+-concise interpretation of statistical results for decision-making contexts.
 
 ## 7. Tools and Environment
 
@@ -125,13 +125,3 @@ pandas
 matplotlib
 
 seaborn
-
-## 8. Reproducibility
-
-The analysis is fully reproducible:
-
-all source data are stored in the data/raw folder;
-
-all analytical steps are documented in the Jupyter notebook;
-
-no manual data manipulation was performed outside the code.
