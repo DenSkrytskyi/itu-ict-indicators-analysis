@@ -1,127 +1,101 @@
-# ITU ICT Indicators Analysis
+ITU ICT Indicators Analysis
 
-Exploratory analysis of ICT access, usage and affordability using ITU data.
+Exploratory analysis of ICT access, usage, and affordability using ITU official data.
 
-## 1. Project Overview
+1. Project Overview
 
 This project presents an exploratory and comparative analysis of selected Information and Communication Technology (ICT) indicators published by the International Telecommunication Union (ITU).
 
-The analysis focuses on ICT access, usage and affordability, three core dimensions monitored by the ITU Telecommunication Development Bureau (BDT) to assess digital inclusion and digital transformation across countries and regions.
+The analysis focuses on three core indicators:
 
-The objective of this project is to demonstrate:
+Households with Internet access at home (%)
 
-- data handling and validation of official ICT statistics;
-- exploratory and comparative analysis across countries and time;
-- policy-relevant interpretation of ICT indicators in line with ITU analytical work.
+Individuals using the Internet (%)
 
-**Visualizations:** All generated charts are available directly in the Jupyter notebook and also in the [`outputs/figures`](outputs/figures) folder.
+Data-only mobile broadband basket (5 GB) as % of GNI per capita
 
-## 2. Data Sources
+The objective is to demonstrate:
+
+Handling and validation of official ICT statistics
+
+Exploratory and comparative analysis across countries and over time
+
+Policy-relevant interpretation of ICT indicators
+
+All visualizations are available directly in the Jupyter notebook and are also saved in the outputs/figures folder.
+
+2. Data Sources
 
 All datasets used in this project were downloaded from the ITU ICT DataHub and correspond to officially published ITU indicators.
 
 The analysis uses country-level time series data covering multiple years, depending on indicator availability.
 
-## 3. Indicators Used
+3. Methodology and Analytical Steps
 
-The following ICT indicators are included in the analysis:
+Data Loading and Validation
 
--Households with Internet access at home (%)
+Import CSV files using Python (pandas)
 
--Individuals using the Internet (%)
+Check structure, missing values, and data types
 
--Individuals who own a mobile cellular telephone (%)
+Ensure consistency of country names and time variables
 
--Individuals who own a smartphone (%)
+Exploratory Analysis
 
--Active mobile-broadband subscriptions (count)
+Descriptive statistics for each selected indicator
 
--Fixed-broadband subscriptions (per 100 people)
+Time-series visualization to identify long-term trends
 
--Population coverage by mobile network (at least 2G/3G/4G/5G)
+Cross-country comparisons to highlight variation
 
--Data-only mobile broadband basket (5 GB) - % of GNI per capita
+Comparative Analysis
 
--Fixed-broadband Internet basket (5 GB) - % of GNI per capita
+Comparison between households’ Internet access and individuals’ Internet use
 
--Household expenditure on ICTs (% of total household expenditure)
+Analysis of the relationship between Internet affordability and household Internet adoption
 
-These indicators reflect ITU’s core analytical areas: connectivity, usage, affordability and digital inclusion.
+Identification of top and bottom countries based on the latest available data
 
-## 4. Methodology and Analytical Steps
+Visualization
 
-The analysis follows standard ITU-style analytical steps:
+Line charts for trends over time
 
-Data loading and validation
+Scatter plots for relationships between indicators
 
-- Importing CSV files using Python (pandas).
+Bar charts for country rankings
 
-- Checking structure, missing values and data types.
+4. Key Findings
 
-- Ensuring consistency of country names and time variables.
+Strong global upward trend: Internet access and usage show a clear increase in many countries over time.
 
-Exploratory analysis
+Persistent digital divide: Despite growth, disparities remain between countries, particularly between high-income and low-income contexts.
 
-- Descriptive statistics for each indicator.
+Affordability matters: Countries where mobile broadband prices are a higher share of GNI per capita tend to have lower household Internet access rates.
 
-- Time-series visualisation to identify long-term trends.
+Households vs Individuals: In many countries, the percentage of individuals using the Internet exceeds the percentage of households with Internet access, indicating reliance on shared or mobile connectivity.
 
-- Cross-country comparisons to highlight variation across development contexts.
+Note: These findings are based on the three analyzed indicators: household Internet access, individual Internet use, and mobile broadband affordability.
 
-Comparative analysis
-
-- Comparison between households’ Internet access and individuals’ Internet use.
-
-- Analysis of the relationship between Internet affordability and Internet adoption.
-
-- Identification of top and bottom countries based on latest available data.
-
-Visualisation
-
-- Line charts for trends over time.
-
-- Scatter plots to analyse relationships between indicators.
-
-- Bar charts for country rankings.
-
-## 5. Key Findings (Policy-Oriented Summary)
-
-Strong global upward trend
-Most countries show a clear increase in Internet access and usage over time, reflecting sustained global progress in ICT adoption.
-
-Persistent digital divide
-Despite overall growth, large disparities remain between countries, especially between high-income and low-income contexts.
-
-Affordability matters
-Countries where mobile broadband prices represent a higher share of GNI per capita tend to have lower household Internet access rates, highlighting affordability as a key barrier to digital inclusion.
-
-Households vs individuals
-In many countries, the percentage of individuals using the Internet exceeds the percentage of households with Internet access, indicating reliance on shared access, mobile connectivity or public access points.
-
-These findings are consistent with ITU’s global assessments of ICT development and affordability.
-
-## 6. Relevance to ITU ICT Statistics Work
-
-This project directly aligns with the work of the ICT Data and Analytics Division (IDA) by demonstrating:
-
-- handling and validation of official ICT statistics;
-
-- analytical use of ICT access, usage and price indicators;
-
-- production of clear, policy-relevant visual outputs;
-
-- concise interpretation of statistical results for decision-making contexts.
-
-## 7. Tools and Environment
+5. Tools and Environment
 
 Python
 
 Jupyter Notebook
 
-Libraries:
+Libraries: pandas, matplotlib, seaborn
 
-pandas
+6. Visualizations
 
-matplotlib
+All charts are saved in the outputs/figures folder:
 
-seaborn
+households_internet_access_timeseries.png - Top 10 countries by household Internet access
+
+households_vs_individuals.png - Scatter plot comparing household vs individual Internet use
+
+households_internet_access_ukraine.png - Time-series for Ukraine
+
+internet_affordability_vs_access.png - Affordability vs household Internet access
+
+top_10_internet_usage.png - Top 10 countries by Internet usage
+
+bottom_10_internet_usage.png - Bottom 10 countries by Internet usage
