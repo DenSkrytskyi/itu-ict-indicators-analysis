@@ -20,7 +20,7 @@ The objective is to demonstrate:
 - Exploratory and comparative analysis across countries and over time  
 - Policy-relevant interpretation of ICT indicators  
 
-All visualizations are available **directly in the Jupyter notebook** and are also saved in the (outputs/figures)[outputs/figures] folder.
+All visualizations are available **directly in the Jupyter notebook** and are also saved in the [outputs/figures](outputs/figures) folder.
 
 ---
 
