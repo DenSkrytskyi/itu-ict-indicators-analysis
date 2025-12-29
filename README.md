@@ -40,9 +40,9 @@ The following ICT indicators are included in the analysis:
 
 -Population coverage by mobile network (at least 2G/3G/4G/5G)
 
--Data-only mobile broadband basket (5 GB) – % of GNI per capita
+-Data-only mobile broadband basket (5 GB) - % of GNI per capita
 
--Fixed-broadband Internet basket (5 GB) – % of GNI per capita
+-Fixed-broadband Internet basket (5 GB) - % of GNI per capita
 
 -Household expenditure on ICTs (% of total household expenditure)
 
