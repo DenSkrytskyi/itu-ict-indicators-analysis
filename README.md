@@ -1,6 +1,6 @@
 # ITU ICT Indicators Analysis
 
-Exploratory analysis of ICT access, usage and affordability using ITU data
+Exploratory analysis of ICT access, usage and affordability using ITU data.
 
 ## 1. Project Overview
 
@@ -10,11 +10,11 @@ The analysis focuses on ICT access, usage and affordability, three core dimensio
 
 The objective of this project is to demonstrate:
 
--  data handling and validation of official ICT statistics;
+- data handling and validation of official ICT statistics;
+- exploratory and comparative analysis across countries and time;
+- policy-relevant interpretation of ICT indicators in line with ITU analytical work.
 
--  exploratory and comparative analysis across countries and time;
-
--  policy-relevant interpretation of ICT indicators in line with ITU analytical work.
+**Visualizations:** All generated charts are available directly in the Jupyter notebook and also in the [`outputs/figures`](outputs/figures) folder.
 
 ## 2. Data Sources
 
